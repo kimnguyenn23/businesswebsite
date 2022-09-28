@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: chalkduster, sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bear.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.navigation_bar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{ 
+    width: 150px;
+    cursor: pointer;
+}
+.navigation_bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navigation_bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/* .content{
+    width: 100%;
+    position: auto;
+    top: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: #fff;
+    border: 3px solid green;
+    margin: auto;
+} */
+
+.content{
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+    font-size: 80px;
+}
+
+.content h1{
+    font-size: 90px;
+    margin: auto;
+} 
+
+.content p{
+    line-height: 25px;
+    font-size: 20px;
+    margin: 25px;
+}
+
+button{
+    text-align: center;
+    width: 625px;
+    height: 100px;
+    margin: 40px;
+    font-size: 20px;
+    border: 3px solid #fffacd;
+    background: transparent;
+    color: #db7093;
+}
+
+
